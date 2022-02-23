@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "601dabb6ff7eef40c5df74d4"
+  },
+  "CreatedAt": {
+    "$date": "2021-02-05T20:33:58.073Z"
+  },
+  "Name": "Doğal Ahşap Kütükte Papatya Aranjmanı",
+  "Price": "54",
+  "StockQuantity": 10
+},{
+  "_id": {
+    "$oid": "601dabb8ff7eef40c5df74d5"
+  },
+  "CreatedAt": {
+    "$date": "2021-02-05T20:34:00.735Z"
+  },
+  "Name": "Lilyum Aranjmanı - Paşabahçe Vazoda",
+  "Price": "69",
+  "StockQuantity": 11
+},{
+  "_id": {
+    "$oid": "601dabbaff7eef40c5df74e6"
+  },
+  "CreatedAt": {
+    "$date": "2021-02-05T20:34:02.513Z"
+  },
+  "Name": "Beyaz Spatifilyum (Barış Çiçeği) Saksıda Canlı Bitki",
+  "Price": "79",
+  "StockQuantity": 0
+},{
+  "_id": {
+    "$oid": "601dabb8ff7eef40c5df74d6"
+  },
+  "CreatedAt": {
+    "$date": "2021-02-05T20:34:00.892Z"
+  },
+  "Name": "Pembe Papatyalar Çiçek Buketi",
+  "Price": "59",
+  "StockQuantity": 13
+}]
