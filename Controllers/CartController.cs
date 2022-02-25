@@ -34,37 +34,6 @@ namespace CicekSepetiAPI.Controllers
             return "It seems to work fine";
         }
 
-
-
-        [HttpPost]
-        [Route("addProduct")]
-        public async Task<IActionResult> AddProduct(Product product)
-        {
-            try
-            {
-
-                //_logger.LogInformation($"Adding {cart.Product.Name} to cart");
-                //add to cart
-                await _productDal.AddAsync(product);
-                //return all cart items of the user
-                //var cartList = _cartDal.Get(x => x.UserId == cart.UserId).ToList();
-                //_logger.LogInformation($"Success. Total quantity {cartList.Sum(x => x.Quantity)}");
-                //return StatusCode(200, new { Message = "Success", CartList = cartList });
-
-                return StatusCode(200);
-            }
-            catch (Exception e)
-            {
-                _logger.LogError($"something went wrong. Exception {e.Message}");
-                throw new ArgumentException("Something went wrong please try again");
-            }
-        }
-
-        /// <summary>
-        /// Adds product to user cart
-        /// </summary>
-        ///// <param name="cart">Cart model</param>
-        /// <returns>List of cart with HTTP code</returns>
         [HttpPost]
         [Route("addToCart")]
         public async Task<IActionResult> AddToCartAsync(Cart cart)
